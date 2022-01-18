@@ -6,20 +6,31 @@ body{
 }
 /* This will style the header section */
 .bg{
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(resources/bg3.jpeg);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(resources/bg3.jpeg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
 }
 .bgdif{
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(resources/Ecotourism-Safari-Masai-Mara.jpg);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(resources/Ecotourism-Safari-Masai-Mara.jpg);
 }
 .bg ul{
     margin-top: -4em;
 }
 .nav-link{
     font-size: 1.5em;
+}
+.bg h1{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    font-size: 6vw;
+}
+.bg p{
+    color: yellow;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
 }
