@@ -34,3 +34,19 @@ body{
     font-family: 'Dancing Script', cursive;
     font-size: 4vw;
 }
+/* Agents section styling */
+.agent{
+    height: 70vh;
+}
+.agent h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 6vw;
+}
+.agent img{
+    height: 20em;
+    /* width: 20em; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 40%;
+}
