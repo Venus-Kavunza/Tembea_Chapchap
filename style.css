@@ -1,0 +1,20 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+/* This will style the header section */
+.bg{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(resources/bg3.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg ul{
+    margin-top: -4em;
+}
+.nav-link{
+    font-size: 1.5em;
+}
