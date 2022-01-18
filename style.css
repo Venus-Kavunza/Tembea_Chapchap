@@ -6,11 +6,16 @@ body{
 }
 /* This will style the header section */
 .bg{
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(resources/bg3.jpeg);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(resources/bg3.jpeg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.bgdif{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(resources/Ecotourism-Safari-Masai-Mara.jpg);
 }
 .bg ul{
     margin-top: -4em;
