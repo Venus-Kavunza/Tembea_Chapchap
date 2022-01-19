@@ -36,7 +36,9 @@ body{
 }
 /* Agents section styling */
 .agent{
-    height: 70vh;
+    height: 90vh;
+    color: whitesmoke;
+    background-color: rgb(167, 167, 167);
 }
 .agent h1{
     font-family: 'Roboto Slab', serif;
@@ -44,7 +46,10 @@ body{
 }
 .agent img{
     height: 20em;
-    /* width: 20em; */
+    margin: auto;
+}
+.carousel-inner{
+    height: 75vh;
     display: flex;
     align-items: center;
     align-content: center;
