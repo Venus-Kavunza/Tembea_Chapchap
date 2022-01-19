@@ -5,7 +5,7 @@ body{
     width: 100%;
 }
 /* This will style the header section */
-.bg{
+.bg {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(resources/bg3.jpeg);
     height: 100vh;
     background-size: cover;
@@ -50,4 +50,143 @@ body{
 }
 .carousel-inner{
     height: 75vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 40%;
+}
+
+/* Styling Contact us */
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(143, 131, 135, 0.4);
+    padding-left: 500px;
+    padding-top: 100px;
+}
+#overlay form{
+    max-width: 550px;
+    width: 90%;
+    background: white;
+    margin: 17vh auto 0auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+#overlay h1{
+    margin: 0;
+    text-align: center;
+}
+#overlay label{
+    display: block;
+    margin: 20px 0;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #f0e5e5;
+}
+input[type="text"]:focus, textarea:focus {
+    border-bottom: 1px solid rgb(255,0,106);
+}
+textarea::-wekit-scrolbar {
+    width: 4px;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color:rgb(255,0,106)
+}
+.center{
+    text-align: center;
+}
+input[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, rgb(15, 22, 122), );
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.error {
+    color: red;
+}
+#success{
+    color: #28A;
+}
+
+/* sign up styling */
+.signup {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    height: 150px;
+    
+}
+
+.signuph {
+    background-color: rgba(121, 112, 112, 0.3);
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 10px;
+}
+
+.signuph h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.signupf {
+    padding: 30px 40px;
+}
+
+.signupfc {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    /* position: relative; */
+    align-items: center;
+    display: flex;
+}
+
+.signupfc label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.signupfc input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.signupf button {
+    background-color: yellow;
+    border: 2px solid yellow;
+    color: black;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 4px;
 }
