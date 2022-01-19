@@ -115,68 +115,66 @@ input[type="submit"] {
     color: #28A;
 }
 
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: rgb(148, 141, 141);
-    font-family: sans-serif;
+/* sign up styling */
+.signup {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    margin: 0;
+    margin: 0 30px;
+    height: 150px;
+    
 }
 
-.container {
-    background-color: whitesmoke;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    width: 400px;
-    max-width: 100%;
-}
-
-.header {
-    background-color: #f7f7f7;
+.signuph {
+    background-color: rgba(121, 112, 112, 0.3);
     border-bottom: 1px solid #f0f0f0;
-    padding: 20px 40px;
+    padding: 10px 10px;
 }
 
-.header h2 {
-    margin: 0;
+.signuph h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
 }
 
-.form {
+.signupf {
     padding: 30px 40px;
 }
 
-.form-control {
+.signupfc {
     margin-bottom: 10px;
     padding-bottom: 20px;
-    position: relative;
+    /* position: relative; */
+    align-items: center;
+    display: flex;
 }
 
-.form-control label {
+.signupfc label {
     display: inline-block;
     margin-bottom: 5px;
+    color: white;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
 }
 
-.form-control input {
+.signupfc input {
     border: 2px solid #f0f0f0;
     border-radius: 4px;
     display: block;
     font-family: inherit;
-    font-size: 14px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 8px 10px;
     width: 100%;
+    outline: none;
 }
 
-.form button {
+.signupf button {
     background-color: yellow;
     border: 2px solid yellow;
     color: black;
