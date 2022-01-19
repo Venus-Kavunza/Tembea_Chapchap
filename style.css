@@ -114,3 +114,74 @@ input[type="submit"] {
 #success{
     color: #28A;
 }
+
+/* sign up styling */
+.signup {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    height: 150px;
+    
+}
+
+.signuph {
+    background-color: rgba(121, 112, 112, 0.3);
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 10px;
+}
+
+.signuph h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.signupf {
+    padding: 30px 40px;
+}
+
+.signupfc {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    /* position: relative; */
+    align-items: center;
+    display: flex;
+}
+
+.signupfc label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.signupfc input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.signupf button {
+    background-color: yellow;
+    border: 2px solid yellow;
+    color: black;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 4px;
+}
