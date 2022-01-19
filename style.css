@@ -5,7 +5,7 @@ body{
     width: 100%;
 }
 /* This will style the header section */
-.bg{
+.bg {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(resources/bg3.jpeg);
     height: 100vh;
     background-size: cover;
@@ -50,3 +50,4 @@ body{
     align-content: center;
     margin-left: 40%;
 }
+
