@@ -45,15 +45,11 @@ body{
     font-size: 6vw;
 }
 .agent img{
-    height: 20em;
+    height: 30em;
     margin: auto;
 }
 .carousel-inner{
     height: 75vh;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin-left: 40%;
 }
 
 /* Styling Contact us */
