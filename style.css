@@ -51,7 +51,10 @@ body{
 .carousel-inner{
     height: 75vh;
 }
-
+.search{
+    height: 30vh;
+    margin-left: 30em;
+}
 /* Styling Contact us */
 #overlay{
     padding-left: 500px;
@@ -181,6 +184,7 @@ input[type="submit"] {
     font-size: 16px;
     font-family: inherit;
     border-radius: 4px;
+}
 /* about page style */
 .About{
     text-align: center;
