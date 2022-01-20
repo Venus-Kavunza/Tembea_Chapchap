@@ -87,7 +87,7 @@ function clearMessages(){
 function emailIsValid(email){
     let pattern = /\S+@\S+.\S+/;
     return pattern.test(email);
-=======
+}
 function validate() {
     var username = document.getElementById("username");
     var country = document.getElementById("country");
