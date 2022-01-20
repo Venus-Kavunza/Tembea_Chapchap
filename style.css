@@ -36,19 +36,20 @@ body{
 }
 /* Agents section styling */
 .agent{
-    height: 70vh;
+    height: 90vh;
+    color: whitesmoke;
+    background-color: rgb(167, 167, 167);
 }
 .agent h1{
     font-family: 'Roboto Slab', serif;
     font-size: 6vw;
 }
 .agent img{
-    height: 20em;
-    /* width: 20em; */
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin-left: 40%;
+    height: 30em;
+    margin: auto;
+}
+.carousel-inner{
+    height: 75vh;
 }
 
 /* Styling Contact us */
@@ -111,7 +112,6 @@ input[type="submit"] {
 #success{
     color: #28A;
 }
-
 /*Styling Log In Form*/
 .loginform {
     position: relative;
@@ -179,4 +179,106 @@ input[type="submit"] {
     border-radius: 3px;
     border: 1px solid #EF9A9A;
     display: none;
+=======
+/* sign up styling */
+.signup {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    height: 150px;
+    
+}
+
+.signuph {
+    background-color: rgba(121, 112, 112, 0.3);
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 10px;
+}
+
+.signuph h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.signupf {
+    padding: 30px 40px;
+}
+
+.signupfc {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.signupfc label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.signupfc input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.signupf button {
+    background-color: yellow;
+    border: 2px solid yellow;
+    color: black;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 4px;
+/* about page style */
+.About{
+    text-align: center;
+    background-color: aqua;
+    height: 100vh;
+    justify-content: space-around;
+}
+.FST{
+    display: flex;
+    justify-content: space-around;
+}
+.Firstp{
+    margin-top: 100px;
+    background-color: cadetblue;
+    width: 300px;
+    height: 150px;
+    padding: 40px;
+}
+
+.Secondp{
+    margin-top: 100px;
+    background-color: cadetblue;
+    width: 300px;
+    height: 150px;
+    padding: 40px;
+}
+
+.Thirdp{
+    margin-top: 100px;
+    background-color: cadetblue;
+    width: 300px;
+    height: 150px;
+    padding: 40px;
 }
