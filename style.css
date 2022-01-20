@@ -51,7 +51,10 @@ body{
 .carousel-inner{
     height: 75vh;
 }
-
+.search{
+    height: 30vh;
+    margin-left: 30em;
+}
 /* Styling Contact us */
 #overlay{
     width: 100%;
