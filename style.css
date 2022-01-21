@@ -92,7 +92,7 @@ table.dataTable a {
   display: flex;
   justify-content: space-around;
   color: whitesmoke;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 .about .carousel-inner{
   height: 60vh;
