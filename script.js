@@ -3,7 +3,7 @@ $(window).resize(function () {
 });
 $(document).ready(function () {
   $("#deals").DataTable({
-    sScrollY: $(window).height() - 340,
+    sScrollY: $(window).height() - 350,
     bPaginate: false,
     bJQueryUI: true,
     language: {
