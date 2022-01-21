@@ -28,10 +28,17 @@
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
+    <!-- This is Datatables CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <!-- This imports the Js File -->
     <script defer src="script.js"></script>
     <!-- This imports the CSS File -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- This imports the font Awesome icons -->
     <link
       rel="stylesheet"
@@ -108,63 +115,146 @@
             </ul>
           </div>
         </nav>
+
+        <!-- This is the DataTable section -->
+        <div class="table-responsive-md">
+         <h1>Get to your dream Destination</h1>
+          <table id="deals" class="table table-striped" style="width: 100%">
+            <thead class="thead-light">
+              <tr>
+                <th>Travel Agency</th>
+                <th>Country</th>
+                <th>Destination</th>
+                <th>Package</th>
+                <th>Dates</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody class="bg-warning">
+              <tr>
+                <td>Bountiful Safaris</td>
+                <td>Kenya</td>
+                <td>Diani</td>
+                <td>3 Days and 2 Nights</td>
+                <td>1st to 3rd Feb 2022</td>
+                <td><a href="">Kshs. 23,000</a></td>
+              </tr>
+              <tr>
+                <td>Bountiful Safaris</td>
+                <td>Kenya</td>
+                <td>Diani</td>
+                <td>3 Days and 2 Nights</td>
+                <td>1st to 3rd Feb 2022</td>
+                <td><a href="">Kshs. 23,000</a></td>
+              </tr>
+              <tr>
+                <td>Bountiful Safaris</td>
+                <td>Kenya</td>
+                <td>Diani</td>
+                <td>3 Days and 2 Nights</td>
+                <td>1st to 3rd Feb 2022</td>
+                <td><a href="">Kshs. 23,000</a></td>
+              </tr>
+              <tr>
+                <td>Bountiful Safaris</td>
+                <td>Kenya</td>
+                <td>Diani</td>
+                <td>3 Days and 2 Nights</td>
+                <td>1st to 3rd Feb 2022</td>
+                <td><a href="">Kshs. 23,000</a></td>
+              </tr>
+              <tr>
+                <td>Bountiful Safaris</td>
+                <td>Kenya</td>
+                <td>Diani</td>
+                <td>3 Days and 2 Nights</td>
+                <td>1st to 3rd Feb 2022</td>
+                <td><a href="">Kshs. 23,000</a></td>
+              </tr>
+              <tr>
+                <td>Bountiful Safaris</td>
+                <td>Kenya</td>
+                <td>Diani</td>
+                <td>3 Days and 2 Nights</td>
+                <td>1st to 3rd Feb 2022</td>
+                <td><a href="">Kshs. 23,000</a></td>
+              </tr>
+              <tr>
+                <td>Bountiful Safaris</td>
+                <td>Kenya</td>
+                <td>Diani</td>
+                <td>3 Days and 2 Nights</td>
+                <td>1st to 3rd Feb 2022</td>
+                <td><a href="">Kshs. 23,000</a></td>
+              </tr>
+              <tr>
+                <td>Bountiful Safaris</td>
+                <td>Kenya</td>
+                <td>Diani</td>
+                <td>3 Days and 2 Nights</td>
+                <td>1st to 3rd Feb 2022</td>
+                <td><a href="">Kshs. 23,000</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </header>
-  </body>
 
-  <!-- This is the Footer -->
-  <footer class="bg-warning text-center">
-    <div class="container p-4">
-      <section class="mb-4">
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #3b5998; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-facebook-f"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #55acee; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-twitter"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #dd4b39; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-google"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #ac2bac; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-instagram"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #0082ca; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-linkedin"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #333333; border-radius: 2em"
-          href="https://github.com/Venus-Kavunza/Tembea_Chapchap/tree/master"
-          role="button"
-          ><i class="fa fa-github"></i
-        ></a>
-      </section>
-    </div>
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2022 Copyright: Tembea Chap Chap
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+    <!-- This is the Footer -->
+    <footer class="bg-warning text-center">
+      <div class="container p-4">
+        <section class="mb-4">
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #3b5998; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #55acee; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #dd4b39; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-google"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333; border-radius: 2em"
+            href="https://github.com/Venus-Kavunza/Tembea_Chapchap/tree/master"
+            role="button"
+            ><i class="fa fa-github"></i
+          ></a>
+        </section>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright: Tembea Chap Chap
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
 </html>
