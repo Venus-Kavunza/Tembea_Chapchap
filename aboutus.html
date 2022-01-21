@@ -31,7 +31,7 @@
     <!-- This imports the Js File -->
     <script defer src="script.js"></script>
     <!-- This imports the CSS File -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- This imports the font Awesome icons -->
     <link
       rel="stylesheet"
@@ -108,29 +108,82 @@
             </ul>
           </div>
         </nav>
-        <div class="About">
+        <div class="about">
           <h1>About us</h1>
-          <div class="FST">
-          <div class="Firstp">
-      Tembea chapchap connect you to the<br> best tour agents,
-      that offer<br> spectalur tour packages <br>that are discounted, within seconds 
-      </div>
-      <div class="Secondp">
-      Be assured of getting the best experiences<br> as they carefully 
-      blend every aspect <br>of your holiday to make it unforgettable.
-      </div>
-      <div class="Thirdp">
-      You are guaranteed to get the best tour <br>agents on our website.<br>
-      </div>
-      </div>
-      
-      Interested Tour agents can register using the button below:
-       
-      Register
-      
-      <li><a href="Register.html">Register</a></li>
-      </div>
-          
+          <div class="fst">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="firstp">
+                    Tembea chapchap connects you to the<br />
+                    best tour agents, that offer<br />
+                    spectalur tour packages <br />that are discounted, within
+                    seconds
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="secondp">
+                    Be assured of getting the best experiences<br />
+                    as they carefully blend every aspect <br />of your holiday
+                    to make it unforgettable.
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="shirdp">
+                    You are guaranteed to get the best tour <br />agents on our
+                    website.<br />
+                  </div>
+                </div>
+                
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-target="#carouselExampleIndicators"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-target="#carouselExampleIndicators"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- <p>Interested Tour agents can register using the button below: Register</p> -->
+          <!-- <li><a href="Register.html">Register</a></li> -->
+        </div>
       </div>
     </header>
   </body>

@@ -31,7 +31,7 @@
     <!-- This imports the Js File -->
     <script defer src="script.js"></script>
     <!-- This imports the CSS File -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- This imports the font Awesome icons -->
     <link
       rel="stylesheet"
@@ -108,30 +108,76 @@
             </ul>
           </div>
         </nav>
-           <!--Form-->
-    <div id="overlay">
-      <form action="" onsubmit="event.preventDefault(); validateForm()">
-          <h1>Contact Us</h1>
+        <!--Form-->
+        < class="container text-center">
+        <div class="signup">
+          <div class="signuph">
+            <h1>Contact Us</h1>
+          </div>
+          <form
+            onsubmit="return validate();"
+            action="contactus.html"
+            class="signupf"
+            id="signupf"
+          >
+            <div class="row">
+              <div class="form-group signupfc col-md-6">
+                <label>Name</label>
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  placeholder="Enter your Name"
+                  id="username"
+                  required
+                />
+              </div>
+            </div>
 
-          <label for="name">Name:</label>
-          <input type="text" id="name" placeholder="Your name">
-          <small class="error"></small>
+            <div class="row">
+              <div class="form-group signupfc col-md-6">
+                <label>Country</label>
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  placeholder="Enter your country"
+                  id="country"
+                  required
+                />
+              </div>
+            </div>
 
-          <label for="email">Email:</label>
-          <input type="text" id="name" placeholder="Your email">
-          <small class="error"></small>
+            <div class="row">
+              <div class="form-group signupfc col-md-6">
+                <label>Email</label>
+                <input
+                  type="email"
+                  class="form-control form-control-sm"
+                  placeholder="Enter your email"
+                  id="email"
+                  required
+                />
+              </div>
+            </div>
 
-          <label for="name">Message:</label>
-          <textarea id="message" placeholder="Your message" rows="6"></textarea>
-          <small class="error"></small>
+            <div class="row">
+              <div class="form-group signupfc col-md-6">
+                <label>Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="7"
+                  placeholder="Enter your Message"
+                  required
+                ></textarea>
+              </div>
+            </div>
 
-      <div class="center">
-          <input type="submit" value="Send Message" id="">
-          <p id="success"></p>
-      </div>
-      </form>
-  </div>
-      </div>
+            <button type="submit" class="btn btn-warning">
+              Submit Message
+            </button>
+          </form>
+        </div>
       </div>
     </header>
   </body>
