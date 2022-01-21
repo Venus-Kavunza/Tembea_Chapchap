@@ -1,10 +1,9 @@
 $(window).resize(function () {
-  console.log($(window).height());
   $(".dataTables_scrollBody").css("height", $(window).height() - 200);
 });
 $(document).ready(function () {
   $("#deals").DataTable({
-    sScrollY: $(window).height() - 400,
+    sScrollY: $(window).height() - 340,
     bPaginate: false,
     bJQueryUI: true,
     language: {
