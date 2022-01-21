@@ -108,103 +108,157 @@
             </ul>
           </div>
         </nav>
-        <div class="signup">
-          <div class="signuph">
-          <h1>Sign Up for Big Deals and Adventures</h1>
+        <!-- This is the Sign Up form -->
+        <div class="container text-center">
+          <div class="signup">
+            <div class="signuph">
+              <h1>Sign Up for Big Deals and Adventures</h1>
+            </div>
+            <form
+              onsubmit="return validate();"
+              action="login.html"
+              class="signupf"
+              id="signupf"
+            >
+              <div class="row">
+                <div class="form-group signupfc col-md-6">
+                <label>Username</label>
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  placeholder="Enter your Desired Username"
+                  id="username"
+                  required
+                />
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group signupfc col-md-6">
+                <label>Country</label>
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  placeholder="Enter your country"
+                  id="country"
+                  required
+                />
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group signupfc col-md-6">
+                <label>Contact</label>
+                <input
+                  type="tel"
+                  class="form-control form-control-sm"
+                  placeholder="Enter your Contact Number"
+                  id="contact"
+                  required
+                />
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group signupfc col-md-6">
+                  <label>Email</label>
+                  <input
+                    type="email"
+                    class="form-control form-control-sm"
+                    placeholder="Enter your email"
+                    id="email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group signupfc col-md-6">
+                  <label>Password</label>
+                  <input
+                    type="password"
+                    class="form-control form-control-sm"
+                    placeholder="Enter your password"
+                    id="password"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group signupfc col-md-6">
+                  <label>Confirm Password</label>
+                  <input
+                    type="password"
+                    class="form-control form-control-sm"
+                    placeholder="Confirm your password"
+                    id="password2"
+                    required
+                  />
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-warning">Log In</button>
+            </form>
           </div>
-          <form onsubmit="return validate();" action="login.html" class="signupf" id="signupf">
-              <div class="signupfc">
-              <label>Username</label>
-              <input type="text" placeholder="Enter your name" id="username" required>
-              </div>
-  
-              <div class="signupfc">
-              <label>Country</label>
-              <input type="text" placeholder="Enter your country" id="country" required>
-              </div>
-   
-              <div class="signupfc">
-              <label>Contact</label>
-              <input type="text" placeholder="Enter your number" id="contact" required>
-              </div>
-  
-              <div class="signupfc">
-              <label>Email</label>
-              <input type="email" placeholder="Enter your email" id="email" required>
-              </div>
-  
-              <div class="signupfc">
-              <label>Password</label>
-              <input type="password" placeholder="Enter your password" id="password" required>
-              </div>
-  
-              <div class="signupfc">
-              <label>Confirm Password</label>
-              <input type="password" placeholder="Confirm your password" id="password2" required>
-              </div>
-  
-              <button type="submit">Sign Up</button> 
-              
-  
-          </form>
-      </div>
+        </div>
       </div>
     </header>
-  </body>
 
-  <!-- This is the Footer -->
-  <footer class="bg-warning text-center">
-    <div class="container p-4">
-      <section class="mb-4">
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #3b5998; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-facebook-f"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #55acee; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-twitter"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #dd4b39; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-google"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #ac2bac; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-instagram"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #0082ca; border-radius: 2em"
-          href="#!"
-          role="button"
-          ><i class="fa fa-linkedin"></i
-        ></a>
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #333333; border-radius: 2em"
-          href="https://github.com/Venus-Kavunza/Tembea_Chapchap/tree/master"
-          role="button"
-          ><i class="fa fa-github"></i
-        ></a>
-      </section>
-    </div>
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2022 Copyright: Tembea Chap Chap
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+    <!-- This is the Footer -->
+    <footer class="bg-warning text-center">
+      <div class="container p-4">
+        <section class="mb-4">
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #3b5998; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #55acee; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #dd4b39; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-google"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca; border-radius: 2em"
+            href="#!"
+            role="button"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333; border-radius: 2em"
+            href="https://github.com/Venus-Kavunza/Tembea_Chapchap/tree/master"
+            role="button"
+            ><i class="fa fa-github"></i
+          ></a>
+        </section>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright: Tembea Chap Chap
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
 </html>

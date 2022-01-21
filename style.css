@@ -5,6 +5,9 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+h1{
+    font-family: "Roboto Slab", serif;
+}
 /* This will style all header section */
 .bg {
   background-image: linear-gradient(
@@ -13,11 +16,11 @@ body {
       rgb(0, 0, 0, 0.7)
     ),
     url(resources/bg3.jpeg);
-  height: 100vh;
+  height: 120vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
 }
 .bgdif {
   background-image: linear-gradient(
@@ -40,13 +43,14 @@ body {
   color: whitesmoke;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto Slab", serif;
   font-size: 6vw;
+  padding-top: 1em;
 }
 .bg p {
   color: yellow;
   font-family: "Dancing Script", cursive;
   font-size: 4vw;
+  padding-top: 1em;
 }
 /* b. Landing page Partner Agents section */
 .agent {
@@ -55,7 +59,6 @@ body {
   background-color: rgb(167, 167, 167);
 }
 .agent h1 {
-  font-family: "Roboto Slab", serif;
   font-size: 6vw;
 }
 .agent img {
@@ -65,7 +68,7 @@ body {
 .carousel-inner {
   height: 75vh;
 }
-/* c. Lanidng Page Dream Destination Section */
+/* c. Landing Page Dream Destination Section */
 .search {
   height: 30vh;
   margin-left: 30em;
@@ -76,8 +79,8 @@ body {
   color: white;
   background-color: black;
 }
-.table-responsive-md{
-    color: whitesmoke;
+.table-responsive-md {
+  color: whitesmoke;
 }
 table.dataTable a {
   color: black;
@@ -182,72 +185,34 @@ input[type="submit"] {
 
 /* This will style the Sign up Page */
 .signup {
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 400px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 30px;
-  height: 150px;
+  flex-direction: column;
 }
-
 .signuph {
-  background-color: rgba(121, 112, 112, 0.3);
   border-bottom: 1px solid #f0f0f0;
-  padding: 10px 10px;
 }
-
 .signuph h1 {
-  margin-bottom: 25px;
-  font-size: 24px;
+  font-size: 3vw;
   font-weight: 700;
-  text-align: center;
 }
-
 .signupf {
-  padding: 30px 40px;
+  padding-top: 1em;
 }
-
 .signupfc {
   margin-bottom: 10px;
   padding-bottom: 20px;
   align-items: center;
   display: flex;
 }
-
 .signupfc label {
-  display: inline-block;
-  margin-bottom: 5px;
   color: white;
-  width: 200px;
-  margin-right: 10px;
-  font-size: 14px;
+  width: 15em;
+  font-size: 2vw;
 }
-
 .signupfc input {
-  border: 2px solid #f0f0f0;
-  border-radius: 4px;
-  display: block;
-  font-family: inherit;
-  font-size: 15px;
-  padding: 8px 10px;
-  width: 100%;
-  outline: none;
+  font-size: 1.3vw;
+  width: 20em;
 }
-
-.signupf button {
-  background-color: yellow;
-  border: 2px solid yellow;
-  color: black;
-  display: block;
-  padding: 10px;
-  width: 100%;
-  font-size: 16px;
-  font-family: inherit;
-  border-radius: 4px;
-}
-
 
 /*This will style the Login page*/
 .loginform {
@@ -317,4 +282,3 @@ input[type="submit"] {
   border: 1px solid #ef9a9a;
   display: none;
 }
-
