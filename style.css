@@ -87,100 +87,15 @@ table.dataTable a {
 }
 
 /* This will Style the About Us Page */
-.about {
-  text-align: center;
-  height: 100vh;
-  justify-content: space-around;
-}
-.FST {
+
+.fst {
   display: flex;
   justify-content: space-around;
+  color: whitesmoke;
+  font-size: 3vw;
 }
-.Firstp {
-  margin-top: 100px;
-  background-color: cadetblue;
-  width: 300px;
-  height: 150px;
-  padding: 40px;
-}
-
-.Secondp {
-  margin-top: 100px;
-  background-color: cadetblue;
-  width: 300px;
-  height: 150px;
-  padding: 40px;
-}
-
-.Thirdp {
-  margin-top: 100px;
-  background-color: cadetblue;
-  width: 300px;
-  height: 150px;
-  padding: 40px;
-}
-
-/* This will style the Contact us Page*/
-#overlay {
-  padding-left: 500px;
-  font-family: sans-serif;
-}
-#overlay form {
-  max-width: 550px;
-  width: 90%;
-  background: white;
-  margin: 17vh auto 0auto;
-  padding: 40px;
-  border-radius: 20px;
-  box-sizing: border-box;
-}
-#overlay h1 {
-  margin: 0;
-  text-align: center;
-  color: black;
-  font-size: 50px;
-}
-#overlay label {
-  display: block;
-  margin: 15px 0;
-  padding-right: 400px;
-}
-input,
-textarea {
-  width: 100%;
-  padding: 5px;
-  box-sizing: border-box;
-  outline: none;
-  resize: none;
-  border: none;
-  border-bottom: 1px solid #f0e5e5;
-}
-input[type="text"]:focus,
-textarea:focus {
-  border-bottom: 1px solid rgb(255, 0, 106);
-}
-textarea::-wekit-scrolbar {
-  width: 4px;
-}
-textarea::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 0, 106);
-}
-.center {
-  text-align: center;
-}
-input[type="submit"] {
-  width: 90%;
-  max-width: 200px;
-  background: linear-gradient(to right, rgb(15, 22, 122));
-  color: black;
-  font-size: 17px;
-  border-radius: 3px;
-}
-.error {
-  color: red;
-}
-#success {
-  color: #28a;
+.about .carousel-inner{
+  height: 60vh;
 }
 
 /* This will style the Sign up Page */
@@ -212,73 +127,4 @@ input[type="submit"] {
 .signupfc input {
   font-size: 1.3vw;
   width: 20em;
-}
-
-/*This will style the Login page*/
-.loginform {
-  position: relative;
-  margin-top: 30px;
-  width: 450px;
-  height: auto;
-  background: #dedede;
-  border-radius: 20px;
-  font-family: sans-serif;
-  margin-left: 500px;
-}
-.loginform h1 {
-  padding: 20px 130px;
-  font-size: 35px;
-  font-weight: bold;
-  color: #130f40;
-}
-.login_form {
-  padding: 20px 40px;
-}
-.login_form .font {
-  font-size: 18px;
-  color: #130f40;
-  margin: 5px 0;
-  margin-right: 220px;
-}
-.login_form input {
-  height: 40px;
-  width: 350px;
-  padding: 0 5px;
-  font-size: 18px;
-  outline: none;
-  border: 1px solid silver;
-}
-.login_form .font2 {
-  margin-top: 20px;
-  margin-right: 270px;
-}
-.login_form button {
-  margin: 45px 0 30px 0;
-  height: 45px;
-  width: 365px;
-  font-size: 20px;
-  color: white;
-  outline: none;
-  cursor: pointer;
-  font-weight: bold;
-  background: #1a237e;
-  border-radius: 3px;
-  border: 1px solid #3949ab;
-  transition: 0.5s;
-}
-.login_form button:hover {
-  background: #151c6a;
-}
-.login_form #email_error,
-.login_form #pass_error {
-  margin-top: 5px;
-  width: 345px;
-  font-size: 18px;
-  color: #c62828;
-  background: rgba(255, 0, 0, 0.1);
-  text-align: center;
-  padding: 5px 8px;
-  border-radius: 3px;
-  border: 1px solid #ef9a9a;
-  display: none;
 }
